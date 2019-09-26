@@ -4,6 +4,7 @@ Contents:
 1. Problem
 2. Solution explanation
 3. Run commands
+4. Further improvements
 
 ## Problem
 Find most occurrences of file that does not fit in memory.
@@ -151,3 +152,7 @@ Heapifying the merged dictionary file of newdata.txt
 983 times for 91098
 
 ```
+
+## Further improvements
+- sort in parallel the chunk files
+- consider the size of the in memory heap if too many chunked files - that is FILESIZE/CHUNKSIZE 
